@@ -9,4 +9,4 @@ Folder with useful links and papers on well logs.
 - [Jupyter ноутбуки](jupyter-notebooks.md)
 - [Статьи](papers.md)
 - [Видео](videos.md)
-- [Frameworks](Frameworks and businesses)
+- [Frameworks](frameworks.md)
