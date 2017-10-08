@@ -1,7 +1,7 @@
 ## Статьи
 - [An implementation of Wheeler and Hale's 2015 method for aligning well logs using dynamic warping](https://github.com/ar4/wheeler_hale_2015)
   - (метод)
-  - [Статья](https://dspace.library.colostate.edu/bitstream/handle/11124/17145/Wheeler_mines_0052N_10703.pdf?sequence=1)
+   [Статья](https://dspace.library.colostate.edu/bitstream/handle/11124/17145/Wheeler_mines_0052N_10703.pdf?sequence=1)
   - Вроде как речь идет о новом методе корреляции well log-ов
   - Еще не читал
 - [Применение CNN к well log](https://yadi.sk/i/5O-6rZZt3NaWGc)
@@ -29,3 +29,6 @@
   - (данные, метод)
   - не читал
   - По идее, должно иметь отношение к делу
+- [Много книжек от преподавателя СПБГУ по данной тематике](https://yadi.sk/d/Rt_Pp-df3NaXgv)
+  - (книги)
+  - Проблемма с русской литературой для меня сейчас в том, что мне трудно переключаться между русскими и английскими терминами и обозначениями.
