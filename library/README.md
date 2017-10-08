@@ -10,3 +10,4 @@ Folder with useful links and papers on well logs.
 - [Статьи](papers.md)
 - [Видео](videos.md)
 - [Frameworks](frameworks.md)
+- [Datasets](datasets.md)
