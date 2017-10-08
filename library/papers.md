@@ -1,0 +1,31 @@
+## Статьи
+- [An implementation of Wheeler and Hale's 2015 method for aligning well logs using dynamic warping](https://github.com/ar4/wheeler_hale_2015)
+  - (метод)
+  - [Статья](https://dspace.library.colostate.edu/bitstream/handle/11124/17145/Wheeler_mines_0052N_10703.pdf?sequence=1)
+  - Вроде как речь идет о новом методе корреляции well log-ов
+  - Еще не читал
+- [Применение CNN к well log](https://yadi.sk/i/5O-6rZZt3NaWGc)
+  - (метод)
+  - В ней используются данные с [соревнования по распознаванию facies](https://github.com/seg/2016-ml-contest). Они утверждают, что CNN ведут себя хуже, чем Boosted trees, поскольку мало данных (В данных контеста всего ~3000 наблюдений).
+  - Пробежал глазами
+- [geoscience and python](http://aadm.github.io/2016-02-11-geoscience-and-python.html)
+  - (научпоп)
+  - Еще не читал, но, на сколько понимаю, довольно базовая статья
+- [Статья по интерпретации well log-ов](https://arxiv.org/pdf/1705.03669.pdf)
+  - (интерпретация)
+  - не читал
+- [Применение svm к well log-ам](https://arxiv.org/pdf/1612.00840.pdf)
+  - (данные, метод)
+  - не читал
+- [A data-driven workflow for predicting horizontal well production using vertical well logs](https://arxiv.org/pdf/1705.06556.pdf)
+  - (данные, метод)
+  - не читал
+  - Не понятно, имеет ли отношение к делу
+- [Thermal Conductivity from Core and Well log Data](https://arxiv.org/pdf/0806.2399.pdf)
+  - (данные, метод)
+  - не читал
+  - Не понятно, имеет ли отношение к делу
+- [RESERVOIR CHARACTERIZATION: A MACHINE LEARNING APPROACH](https://arxiv.org/pdf/1506.05070.pdf)
+  - (данные, метод)
+  - не читал
+  - По идее, должно иметь отношение к делу

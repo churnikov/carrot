@@ -1,0 +1,16 @@
+## Jupyter notebooks
+- [Jupyter Ноутбуки по кароажу](https://github.com/aadm/geophysical_notes)
+  - (интерпретация)
+  - Куча ноутбуков по well log-ам, а также содержит себе некоторые данные
+  - Еще не читал
+- [Jupyter Ноутбук по интерпретации данных каротажа](https://github.com/petroGG/Basic-Well-Log-Interpretation/blob/master/Basic%20well%20log%20interpretation.ipynb)
+  - (интерпретация)
+- [Соревнование по геологическим исследованиям](https://github.com/seg/2016-ml-contest)
+  - (интерпретация, данные, метод)
+  - [Ноутбук по начальной обработке данных](https://github.com/seg/2016-ml-contest/blob/master/Facies_classification.ipynb)
+- [Пример применения библиотеки lasio](https://github.com/hydrospanner/lasio-test)
+  - (интерпретация, чтение данных)
+  - не читал
+- [Применение ML к well log-ам (basic)](https://github.com/jessepisel/well_log_ML/blob/master/well%20log%20training%20data.ipynb)
+  - (данные, метод)
+  - не читал
