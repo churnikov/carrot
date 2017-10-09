@@ -32,3 +32,13 @@
 - [Много книжек от преподавателя СПБГУ по данной тематике](https://yadi.sk/d/Rt_Pp-df3NaXgv)
   - (книги)
   - Проблемма с русской литературой для меня сейчас в том, что мне трудно переключаться между русскими и английскими терминами и обозначениями.
+- [Facies Recognition Using Multifractal Hurst Analysis: Applications to Well-Log Data](https://www.researchgate.net/publication/235765738_Facies_Recognition_Using_Multifractal_Hurst_Analysis_Applications_to_Well-Log_Data)
+  - [статья](https://yadi.sk/i/5a-hseXx3Nao9i)
+  - (метод)
+  - все не читал
+  - Если я правильно понял, то они используют некоторое экспоненциальное преобразование сигналов и затем оценивают их с помощью автокорреляции.
+- [Petrophysical approach for estimating porosity, clay volume, and water saturation in gas-bearing shale: A case study from the Horn River Basin, Canada](https://www.researchgate.net/publication/311634863_Petrophysical_approach_for_estimating_porosity_clay_volume_and_water_saturation_in_gas-bearing_shale_A_case_study_from_the_Horn_River_Basin_Canada)
+  - [статья](https://yadi.sk/i/vf0jE2Qo3NaoEh)
+  - (метод)
+  - все не читал
+  - Вроде как имеет неплохое введение в область. Плюс описываются зависимости различных переменных
