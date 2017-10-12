@@ -42,3 +42,14 @@
   - (метод)
   - все не читал
   - Вроде как имеет неплохое введение в область. Плюс описываются зависимости различных переменных
+- [Wavelet transform analysis for lithological characteristics identification in siliciclastic oil fields](https://yadi.sk/i/F-yjh0I33Nhw5i)
+- [Fast probabilistic nonlinear petrophysical inversion](https://yadi.sk/i/lwpn2fIw3Nhwef)
+- [Bayesian rock classification and petrophysical uncertainty characterization with fast well-log forward modeling in thin-bed reservoirs](https://yadi.sk/i/_oj0Q3xK3Nhwkh)
+- [A method to differentiate degree of volcanic reservoir fracture development using conventional well logging data - An application of Kernel Principal Component Analysis (KPCA) and Multifractal Detrended Fluctuation Analysis (MFDFA)](https://yadi.sk/i/d2VazH5O3Nhwn7)
+- [AUTOMATIC AND SIMULTANEOUS CORRELATION OF MULTIPLE WELL LOGS](https://yadi.sk/i/42RkUj963NhwpB)
+- [Seismic facies analysis from well logs based on supervised classification scheme with different machine learning techniques](https://yadi.sk/i/TKOkmbQO3Nhwqx)
+- [A Machine Learning Approach to Facies Classification Using Well Logs Classifier](https://yadi.sk/i/0m80yZWi3NhwsE)
+- [Hierarchical benchmark case study for history matching, uncertainty quantification and reservoir characterisation](https://yadi.sk/i/KzOqoGxo3Nhwsn)
+- [Distributed collaborative prediction: Results of the machine learning contest](https://yadi.sk/i/ms1nOh1c3Nhwu7)
+- [A Machine Learning Approach to Facies Classification Using Well Logs](https://yadi.sk/i/uIVEPRXO3Nhwv8)
+- [Статья Елены Козловой описывающая well logs](https://yadi.sk/d/HiYlotTo3Nhwwx)
