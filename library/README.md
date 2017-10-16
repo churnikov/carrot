@@ -8,6 +8,7 @@ Folder with useful links and papers on well logs.
 - [Курсы](courses.md)
 - [Jupyter ноутбуки](jupyter-notebooks.md)
 - [Статьи](papers.md)
+- [Книги](books.md)
 - [Видео](videos.md)
 - [Frameworks](frameworks.md)
 - [Datasets](datasets.md)
