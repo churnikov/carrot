@@ -53,3 +53,4 @@
 - [Distributed collaborative prediction: Results of the machine learning contest](https://yadi.sk/i/ms1nOh1c3Nhwu7)
 - [A Machine Learning Approach to Facies Classification Using Well Logs](https://yadi.sk/i/uIVEPRXO3Nhwv8)
 - [Статья Елены Козловой описывающая well logs](https://yadi.sk/d/HiYlotTo3Nhwwx)
+- [Диссертация автоматическая корреляция](https://yadi.sk/i/3eNqd_df3NrwsX)
