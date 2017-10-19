@@ -54,3 +54,8 @@
 - [A Machine Learning Approach to Facies Classification Using Well Logs](https://yadi.sk/i/uIVEPRXO3Nhwv8)
 - [Статья Елены Козловой описывающая well logs](https://yadi.sk/d/HiYlotTo3Nhwwx)
 - [Диссертация автоматическая корреляция](https://yadi.sk/i/3eNqd_df3NrwsX)
+- [Инструментальные средства интерпретации геофизических исследований скважин на основе преобразованных каротажных диаграмм с помощью многослойной нейронной сети](https://yadi.sk/i/wbX-Z3NC3Ntvar)
+- [Форма кривых в зависимости от условий формирования пород](https://yadi.sk/i/6KgEi0Pa3NtvcP)
+- [Научпоп статья о том, что газпром развивает машинное обучение](https://www.oilandgaseurasia.com/ru/tech_trend/«газпром-нефть»-развивает-технологии-машинного-обучения)
+- [Анализ геофизических данных](https://basegroup.ru/community/articles/geophysics)
+  - (Базовый уровень)
