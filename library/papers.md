@@ -59,3 +59,4 @@
 - [Научпоп статья о том, что газпром развивает машинное обучение](https://www.oilandgaseurasia.com/ru/tech_trend/«газпром-нефть»-развивает-технологии-машинного-обучения)
 - [Анализ геофизических данных](https://basegroup.ru/community/articles/geophysics)
   - (Базовый уровень)
+- [Описание каротажа](https://yadi.sk/i/ybE6asmH3NzrBy)
