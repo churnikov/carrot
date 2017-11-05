@@ -1,6 +1,8 @@
 # Мои исследования по задаче каротажа
 В этой папке будут храниться мои ноутбуки по анализу данных каротажа.
 
+Основной ноутбук по анализу данных лучше смтореть на [nbviewer](http://nbviewer.jupyter.org/github/kuparez/carrot/blob/master/nikita/digdes_data_analysis.ipynb)
+
 ## Задачи и идеи
 - Попробовать:
   - применить генерацию данных, как описывалось в [статье](https://yadi.sk/i/uIVEPRXO3Nhwv8);
