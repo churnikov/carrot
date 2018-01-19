@@ -1,5 +1,6 @@
 import numpy as np
 import pandas pd
+from scipy import fftpack
 
 def quant_smooth_df(cols, n, qs):
     """
@@ -45,3 +46,30 @@ def quants_smooth(x, n, qs):
         for j, q in enumerate(qs):
             res[i, j * x_pad.shape[1] : (j+1) * x_pad.shape[1]] = np.percentile(x_pad[i : i + 2*n+1], q, axis=0)
     return res
+
+def fourier_filter(n):
+    """
+    Функция, которую необходимо передавать dtf.apply
+    Создает новый столбец SP_f используя преобразование фурье над признаком SP
+    Идея в том, что SP с ростом глубины начинает смещаться вниз. При этом происходит только смещение.
+    Для того, чтобы избавиться от этого тренда, можно применить преобразование преобразование фурье, а затем обратное.
+    В результате, значения сместятся к "более менее" общему среднему.
+
+    :TODO: -- имеет смысл попробовать вычитать линейную регрессию от этого
+
+    :params:
+    n -- (int) -- Сколько значений обнулить после преобразования фурье. Таким образом избавимся от "медленных трендов".
+
+    :returns: -- (function)
+
+    :usage:
+    dtf['SP_f'] = dtf.groupby('well').apply(fourier_filter(5))
+    """
+    def f(well):
+        sp = well.SP
+        f_sp = fftpack.fft(sp.values)
+        f_sp[ : n] = 0
+        f_sp[-n : ] = 0
+        sp_f = fftpack.ifft(f_sp).real
+        return pd.Series(data=sp_f, index=well.index, name='SP_f').to_frame()
+    return f
