@@ -1,6 +1,7 @@
 import numpy as np
 import pandas pd
 from scipy import fftpack
+from sklearn.base import BaseEstimator, TransformerMixin
 
 def quant_smooth_df(cols, n, qs):
     """
@@ -73,3 +74,39 @@ def fourier_filter(n):
         sp_f = fftpack.ifft(f_sp).real
         return pd.Series(data=sp_f, index=well.index, name='SP_f').to_frame()
     return f
+
+
+class WindowGenerator(BaseEstimator, TransformerMixin):
+    """
+    Создает "окно", т.е. новые фичи
+    В результате учитываются предыдущие и будущие значения наблюдений
+
+    skearn compatible
+    """
+    def __init__(self, window_size, **kwargs):
+        """
+        :window_size: -- (int) -- сколько брать значений спереди и сзади
+        """
+        self.window_size = window_size
+
+    def __process(self, x):
+        """
+        Фактически функция генерации фичей
+        """
+        n = self.window_size
+        n_feat = x.shape[1]
+        x_pad = np.pad(x, mode='edge', pad_width=((n,n), (0,0)))
+        res = np.zeros((x.shape[0], n_feat * 2 * n))
+
+        for i in range(x.shape[0]):
+                res[i, :n_feat * n] = x_pad[i : i+n, :].flatten()
+                res[i, n_feat * n:] = x_pad[i+n+1 : i+2*n+1, :].flatten()
+
+        return res
+
+    def fit(self, X, y=0):
+        self.encoder = None
+        return self
+
+    def transform(self, X, y=0):
+        return self.__process(X)
