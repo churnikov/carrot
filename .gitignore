@@ -154,3 +154,4 @@ credentials.*
 *.bbl
 *.png
 *.jpg
+*.pickle
